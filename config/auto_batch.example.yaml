@@ -1,0 +1,14 @@
+base:
+  result_path: result/demo
+  exp_name: "auto_batch"
+  seed: 42
+  model: Qwen/Qwen3-14B
+  device: cuda:0
+  dtype: fp16
+  temperature: 0.0
+  dataset: specbench
+  batch_size: 1
+  max_len: 2048
+  max_new_tokens: 64
+  max_request_num: -1 
+  sample_req_cnt: 8

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 729.62 465.35">
+  <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #22ac38;
+      }
+
+      .st2 {
+        font-family: JetBrainsMono-Medium, 'JetBrains Mono', ui-monospace, monospace, sans-serif;
+        font-weight: 500;
+      }
+
+      .st2, .st3, .st4, .st5, .st6, .st7 {
+        fill: #231815;
+      }
+
+      .st2, .st4, .st5 {
+        font-size: 10px;
+      }
+
+      .st8 {
+        stroke-dasharray: 0 5.93 5.94 0 0 0;
+      }
+
+      .st8, .st9, .st1, .st10, .st11, .st12 {
+        stroke: #231815;
+        stroke-miterlimit: 10;
+      }
+
+      .st8, .st9, .st11 {
+        fill: none;
+      }
+
+      .st4 {
+        font-family: Helvetica, Helvetica, Arial, sans-serif;
+      }
+
+      .st5, .st6, .st7 {
+        font-family: Helvetica-Bold, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+      }
+
+      .st13, .st12 {
+        fill: #f8b62d;
+      }
+
+      .st10 {
+        fill: #ea5514;
+      }
+
+      .st6 {
+        font-size: 32px;
+      }
+
+      .st7 {
+        font-size: 16px;
+      }
+
+      .st11 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="st12" cx="58.77" cy="304.24" r="17.01"/>
+    <line class="st9" x1="76.48" y1="304.24" x2="119.83" y2="304.24"/>
+    <circle class="st12" cx="136.83" cy="304.24" r="17.01"/>
+    <circle class="st12" cx="136.83" cy="349.6" r="17.01"/>
+    <line class="st9" x1="76.48" y1="303.69" x2="119.83" y2="349.6"/>
+    <circle class="st12" cx="136.83" cy="258.89" r="17.01"/>
+    <line class="st9" x1="75.78" y1="304.24" x2="119.83" y2="258.89"/>
+    <circle class="st10" cx="216.2" cy="288.47" r="17.01"/>
+    <circle class="st10" cx="216.2" cy="243.11" r="17.01"/>
+    <circle class="st10" cx="216.2" cy="197.76" r="17.01"/>
+    <g>
+      <circle class="st13" cx="216.2" cy="333.82" r="17.01"/>
+      <circle class="st8" cx="216.2" cy="333.82" r="17.01"/>
+    </g>
+    <g>
+      <circle class="st13" cx="216.2" cy="379.18" r="17.01"/>
+      <circle class="st8" cx="216.2" cy="379.18" r="17.01"/>
+    </g>
+    <line class="st9" x1="153.84" y1="258.89" x2="199.2" y2="197.76"/>
+    <line class="st9" x1="153.84" y1="258.89" x2="199.2" y2="243.11"/>
+    <line class="st9" x1="153.84" y1="258.89" x2="199.2" y2="288.47"/>
+    <line class="st9" x1="199.2" y1="333.82" x2="153.84" y2="258.89"/>
+    <line class="st9" x1="199.2" y1="379.18" x2="153.84" y2="258.89"/>
+    <line class="st11" x1="248.78" y1="180.75" x2="248.78" y2="305.48"/>
+    <line class="st11" x1="249.02" y1="180.75" x2="240.52" y2="180.75"/>
+    <line class="st11" x1="249.4" y1="305.48" x2="240.9" y2="305.48"/>
+    <text class="st2" transform="translate(261.66 237.19)"><tspan x="0" y="0">max_branch_width</tspan></text>
+    <line class="st11" x1="41.76" y1="423.31" x2="233.21" y2="423.31"/>
+    <line class="st11" x1="41.76" y1="424.34" x2="41.76" y2="415.84"/>
+    <line class="st11" x1="233.21" y1="424.35" x2="233.21" y2="415.84"/>
+    <text class="st2" transform="translate(98.49 441.63)"><tspan x="0" y="0">max_beam_len</tspan></text>
+    <circle class="st12" cx="351.98" cy="298.84" r="17.01"/>
+    <line class="st9" x1="369.7" y1="298.84" x2="413.04" y2="298.84"/>
+    <circle class="st12" cx="430.05" cy="298.84" r="17.01"/>
+    <circle class="st12" cx="430.05" cy="344.19" r="17.01"/>
+    <line class="st9" x1="369.7" y1="298.29" x2="413.04" y2="344.19"/>
+    <circle class="st12" cx="430.05" cy="253.49" r="17.01"/>
+    <line class="st9" x1="368.99" y1="298.84" x2="413.04" y2="253.49"/>
+    <g>
+      <circle class="st0" cx="509.42" cy="283.07" r="17.01"/>
+      <circle class="st8" cx="509.42" cy="283.07" r="17.01"/>
+    </g>
+    <circle class="st1" cx="509.42" cy="237.71" r="17.01"/>
+    <circle class="st1" cx="509.42" cy="192.36" r="17.01"/>
+    <line class="st9" x1="447.06" y1="253.49" x2="492.41" y2="192.36"/>
+    <line class="st9" x1="447.06" y1="253.49" x2="492.41" y2="237.71"/>
+    <line class="st9" x1="447.06" y1="253.49" x2="492.41" y2="283.07"/>
+    <line class="st11" x1="542.83" y1="175.35" x2="542.83" y2="254.72"/>
+    <line class="st11" x1="543.52" y1="175.35" x2="535.01" y2="175.35"/>
+    <line class="st11" x1="543.65" y1="254.12" x2="535.14" y2="254.12"/>
+    <text class="st2" transform="translate(557.61 217.83)"><tspan x="0" y="0">max_n_beams</tspan></text>
+    <g>
+      <rect class="st1" x="463.43" y="413" width="11.34" height="11.34"/>
+      <text class="st5" transform="translate(480.44 422.35)"><tspan x="0" y="0">Forward Nodes</tspan></text>
+    </g>
+    <g>
+      <rect class="st12" x="303.24" y="413.01" width="11.34" height="11.34"/>
+      <text class="st5" transform="translate(325.91 422.58)"><tspan x="0" y="0">Tree</tspan></text>
+    </g>
+    <g>
+      <rect class="st10" x="357.83" y="413.01" width="11.34" height="11.34"/>
+      <text class="st5" transform="translate(374.84 422.35)"><tspan x="0" y="0">New Tree Nodes</tspan></text>
+    </g>
+    <text class="st7" transform="translate(38.83 139.14)"><tspan x="0" y="0">Choose tree nodes</tspan></text>
+    <text class="st7" transform="translate(347.85 139.14)"><tspan x="0" y="0">Choose forward nodes</tspan></text>
+    <g>
+      <line class="st9" x1="531.03" y1="300.76" x2="570.63" y2="332.59"/>
+      <polygon class="st3" points="531.05 306.02 532.04 305.88 531.33 301 536.25 300.64 536.17 299.64 530.18 300.08 531.05 306.02"/>
+    </g>
+    <text class="st4" transform="translate(575.18 342.51)"><tspan x="0" y="0">Can be forwarded</tspan><tspan x="0" y="12">But limited by max_n_beams </tspan></text>
+  </g>
+  <text class="st6" transform="translate(18.26 43.73)"><tspan x="0" y="0">Speculative Decoding Parameters</tspan></text>
+</svg>

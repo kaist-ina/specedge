@@ -1,0 +1,42 @@
+version: 1
+opt: 2
+base:
+  result_path: "result/demo"
+  exp_name: "specedge"
+  dtype: fp16
+  seed: 42
+  ssh_key: ~/.ssh/id_ed25519_server
+  max_len: 2048
+server:
+  process_name: server
+  target_model: Qwen/Qwen3-14B
+  device: cuda:0
+  temperature: 0.7
+  max_batch_size: 1
+  num_clients: 2
+  batch_type: static
+  cache_prefill: true
+client:
+  host: 127.0.0.1:8000
+  process_name: client
+  draft_model: Qwen/Qwen3-1.7B
+  dataset: specbench
+  reasoning: False
+  sample_req_cnt: 8
+  req_offset: 0
+  max_n_beams: 32
+  max_beam_len: 4
+  max_branch_width: 16
+  max_budget: 32
+  proactive:
+    type: excluded
+    max_n_beams: 32
+    max_beam_len: 3
+    max_branch_width: 16
+    max_budget: 32
+  max_new_tokens: 64
+  max_request_num: -1
+node:
+  localhost:
+  - device: cuda:0
+  - device: cuda:1

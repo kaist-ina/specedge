@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package specedge;
+
+service SpecEdgeService {
+    rpc Validate (ValidateRequest) returns (ValidateResponse) {}
+    rpc Sync (SyncRequest) returns (SyncResponse) {}
+}
+
+message ValidateRequest {
+    int32 client_idx = 1;
+    int32 req_idx = 2;
+    bytes input_ids = 3;
+    bytes position_ids = 4;
+    bytes cache_seq_indices = 5;
+    bytes parent_indices = 6;
+    bytes attention_mask = 7;
+    bool prefill = 8;
+    optional string prefix = 9;
+}
+
+message ValidateResponse {
+    bytes selection = 1;
+    int32 prefill = 2;
+}
+
+message SyncRequest { }
+message SyncResponse { }

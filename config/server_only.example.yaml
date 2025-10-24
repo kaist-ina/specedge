@@ -1,0 +1,27 @@
+base:
+  result_path: "result/demo"
+  exp_name: "server_only"
+  dtype: fp16
+  seed: 42
+  ssh_key: ~/.ssh/id_ed25519_server
+  max_len: 2048
+server:
+  process_name: server
+  target_model: Qwen/Qwen3-14B
+  device: cuda:0
+  temperature: 0.7
+  num_clients: 1
+client:
+  host: 127.0.0.1:8000
+  process_name: client
+  draft_model: Qwen/Qwen3-1.7B
+  dataset: specbench
+  max_n_beams: 32
+  max_beam_len: 4
+  max_branch_width: 16 
+  max_budget: 64
+  max_batch_size: 1
+  max_new_tokens: 64
+  max_request_num: -1
+  sample_req_cnt: 8
+  device: cuda:1

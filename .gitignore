@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Result folders
+result/
+
+# configuration
+config/*
+!config/auto_batch.example.yaml
+!config/server_only.example.yaml
+!config/specedge.example.yaml
